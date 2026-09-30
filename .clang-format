@@ -1,0 +1,34 @@
+# Base style
+BasedOnStyle: LLVM
+
+# Indentación
+IndentWidth: 8
+# TabWidth: 8
+UseTab: Always
+
+# Longitud de línea
+ColumnLimit: 100
+
+# Llaves
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true            # Salto de línea solo en funciones
+  AfterControlStatement: false   # if, while, for: llaves en la misma línea
+  AfterClass: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterEnum: false
+
+# Espacios
+SpacesInParentheses: false      # No espacios extras en llamadas de función
+SpaceBeforeParens: ControlStatements # while (1), if (x), for (...)
+#SpaceAroundOperators: true      # Espacios alrededor de operadores binarios
+
+# Otras reglas de estilo útiles
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+
+InsertNewlineAtEOF: true
+
+MaxEmptyLinesToKeep: 2

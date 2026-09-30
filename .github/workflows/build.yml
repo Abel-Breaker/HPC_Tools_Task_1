@@ -1,0 +1,34 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+
+  # =========================
+  # Ubuntu 24.04 - GCC
+  # =========================
+  ubuntu-24-gcc:
+    name: Ubuntu 24.04 - GCC
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            gcc \
+            make \
+            libomp-dev \
+            libpapi-dev
+
+      - name: Build
+        run: SRCS=$(find "src" -type f -name '*.c')
+              mkdir -p "$OUT_DIR"
+              gcc -std=c11 -O0 -Wall -Wextra $SRCS -lm -o "$OUT_DIR/program"
