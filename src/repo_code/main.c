@@ -105,7 +105,8 @@ int main(int argc, char **argv)
 	double *X = malloc((size_t)N * p * sizeof(double));
 	double *beta_true = malloc((size_t)p * sizeof(double));
 	double *y = malloc((size_t)N * sizeof(double));
-	double *XtX = malloc((size_t)p * p * sizeof(double));
+	// double *XtX = malloc((size_t)p * p * sizeof(double));
+	double *XtX = calloc((size_t)p * p, sizeof(double));
 	double *Xty = malloc((size_t)p * sizeof(double));
 	double *beta = malloc((size_t)p * sizeof(double));
 
