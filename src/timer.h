@@ -22,15 +22,15 @@ static inline int64_t diff_nano(const struct timespec *start, const struct times
 
 static inline double diff_micro(const struct timespec *start, const struct timespec *end)
 {
-	return diff_nano(start, end) * 1e-3; // us
+	return (double)diff_nano(start, end) * 1e-3; // us
 }
 
 static inline double diff_milli(const struct timespec *start, const struct timespec *end)
 {
-	return diff_nano(start, end) * 1e-6; // ms
+	return (double)diff_nano(start, end) * 1e-6; // ms
 }
 
 static inline double diff_seconds(const struct timespec *start, const struct timespec *end)
 {
-	return diff_nano(start, end) * 1e-9; // s
+	return (double)diff_nano(start, end) * 1e-9; // s
 }
