@@ -9,8 +9,6 @@ TARGET ?= build/program
 
 # Compiler (default gcc)
 CC ?= gcc
-VALID_COMPILERS := gcc gcc-10 icc icx
-
 
 ifeq ($(findstring gcc,$(CC)),)
 ifeq ($(findstring icc,$(CC)),)
