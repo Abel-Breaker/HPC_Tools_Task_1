@@ -9,10 +9,17 @@ TARGET ?= build/program
 
 # Compiler (default gcc)
 CC ?= gcc
-VALID_COMPILERS := gcc icc icx
+VALID_COMPILERS := gcc gcc-10 icc icx
 
-ifeq ($(filter $(CC),$(VALID_COMPILERS)),)
+
+ifeq ($(findstring gcc,$(CC)),)
+ifeq ($(findstring icc,$(CC)),)
+ifeq ($(findstring icx,$(CC)),)
+
 $(error Unsupported compiler '$(CC)'. Valid compilers: $(VALID_COMPILERS))
+
+endif
+endif
 endif
 
 # Number of processors
