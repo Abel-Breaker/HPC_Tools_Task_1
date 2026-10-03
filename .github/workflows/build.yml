@@ -8,15 +8,20 @@ permissions:
   contents: read
 
 jobs:
-  ubuntu-24-gcc:
-    name: Ubuntu 24.04 - GCC
-    runs-on: gcc:10.1.0
+  ubuntu-gcc-10:
+    name: GCC 10
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Versión del compilador
-        run: gcc --version
+      - name: Install GCC 10
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-10 g++-10
+
+      - name: Compiler version
+        run: gcc-10 --version
 
       - name: Build
-        run: make rebuild CC=gcc
+        run: make rebuild CC=gcc-10
