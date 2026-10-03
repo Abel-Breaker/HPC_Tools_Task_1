@@ -34,6 +34,22 @@
 #include <string.h>
 #include <time.h>
 
+
+/*static void print_results(const double *beta, const double *beta_true, int p)
+{
+	printf("\n");
+	for (int i = 0; i < p; i++) {
+		printf("%5.2f ", beta[i]);
+	}
+
+	printf("\n");
+
+	for (int i = 0; i < p; i++) {
+		printf("%5.2f ", beta_true[i]);
+	}
+	printf("\n\n");
+}
+*/
 /* -------------------------------------------------------------------------
  * generate_data (DO NOT MODIFY)
  *
@@ -44,7 +60,7 @@
  *
  * All arrays are caller-allocated.
  * ---------------------------------------------------------------------- */
-void generate_data(double *X, double *beta_true, double *y, int N, int p, double noise_std)
+static void generate_data(double *X, double *beta_true, double *y, int N, int p, double noise_std)
 {
 	for (int j = 0; j < p; j++) {
 		beta_true[j] = -5.0 + 10.0 * rng_uniform();
@@ -102,11 +118,11 @@ int main(int argc, char **argv)
 
 	rng_seed(seed);
 
-	double *X = malloc((size_t)N * p * sizeof(double));
+	double *X = malloc((size_t)(N * p) * sizeof(double));
 	double *beta_true = malloc((size_t)p * sizeof(double));
 	double *y = malloc((size_t)N * sizeof(double)); // Column (matrix N x 1)
 	// double *XtX = malloc((size_t)p * p * sizeof(double));
-	double *XtX = calloc((size_t)p * p, sizeof(double));
+	double *XtX = calloc((size_t)(p * p), sizeof(double));
 	double *Xty = malloc((size_t)p * sizeof(double));
 	double *beta = malloc((size_t)p * sizeof(double));
 
@@ -131,6 +147,8 @@ int main(int argc, char **argv)
 	timestamp(&t3);
 
 	check_solution(beta, beta_true, p);
+
+	// print_results(beta, beta_true, p);
 
 	// Print times:
 	printf("Time taken by compute_XtX: %.2f s\n", diff_seconds(&t1, &t0));

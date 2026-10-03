@@ -48,7 +48,7 @@ DEBUG_COMMON_FLAGS := -O0 -g3 -Wall -Wextra  -Wshadow -Wformat=2 \
 
 DEBUG_FLAGS_GCC := -Wpedantic -Wnull-dereference -Wdouble-promotion \
 			-Wstack-protector -fstack-clash-protection \
-			-Wshift-negative-value -Wshift-overflow -Wcast-align
+			-Wshift-negative-value -Wshift-overflow -Wcast-align -fanalyzer
 
 # Release flags
 RELEASE_COMMON_FLAGS := -O2 -march=native

@@ -5,6 +5,6 @@ clear
 
 set -e
 
-make rebuild CC=gcc
+make rebuild CC=gcc MODE=release
 
-./build/program 20000 50
+./build/program 20000 20

@@ -7,7 +7,7 @@ IndentWidth: 8
 UseTab: Always
 
 # Longitud de línea
-ColumnLimit: 100
+ColumnLimit: 120
 
 # Llaves
 BreakBeforeBraces: Custom
