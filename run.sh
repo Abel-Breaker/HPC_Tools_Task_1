@@ -5,6 +5,6 @@ clear
 
 set -e
 
-make rebuild CC=gcc MODE=release
+make rebuild CC=gcc MODE=debug # EXTRA_CFLAGS="-O2 -march=native"
 
-./build/program 20000 20
+./build/program 200 20

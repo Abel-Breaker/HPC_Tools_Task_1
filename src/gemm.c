@@ -1,4 +1,5 @@
 #include "gemm.h"
+#include <string.h>
 
 /* -------------------------------------------------------------------------
  * TODO (STUDENT): compute_XtX
@@ -9,9 +10,13 @@
  *
  *   XtX[a][b] = sum over i=0..N-1 of X[i][a] * X[i][b]
  * Naive triple-nested loop. No blocking, no manual vectorization.
+ *
+ * NOTE/TODO: The resultant matrix is symmetric. Many optimizations possible
  * ---------------------------------------------------------------------- */
-void compute_XtX(const double X[], double XtX[], int N, int p)
+void compute_XtX(const double *restrict X, double *restrict XtX, int N, int p)
 {
+	memset(XtX, 0, (size_t)p * (size_t)p * sizeof(*XtX));
+
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < p; j++) {
 			for (int k = 0; k < p; k++) {

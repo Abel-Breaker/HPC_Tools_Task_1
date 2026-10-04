@@ -23,6 +23,7 @@
  *   e.g. ./linreg 20000 50
  * ==========================================================================*/
 
+#include "gauss_jordan.h"
 #include "gaussian.h"
 #include "gemm.h"
 #include "gemv.h"
@@ -118,11 +119,11 @@ int main(int argc, char **argv)
 
 	rng_seed(seed);
 
-	double *X = malloc((size_t)(N * p) * sizeof(double));
+	double *X = malloc((size_t)N * (size_t)p * sizeof(double));
 	double *beta_true = malloc((size_t)p * sizeof(double));
 	double *y = malloc((size_t)N * sizeof(double)); // Column (matrix N x 1)
-	// double *XtX = malloc((size_t)p * p * sizeof(double));
-	double *XtX = calloc((size_t)(p * p), sizeof(double));
+	double *XtX = malloc((size_t)p * (size_t)p * sizeof(double));
+	// double *XtX = calloc((size_t)(p * p), sizeof(double));
 	double *Xty = malloc((size_t)p * sizeof(double));
 	double *beta = malloc((size_t)p * sizeof(double));
 
@@ -134,7 +135,7 @@ int main(int argc, char **argv)
 	generate_data(X, beta_true, y, N, p, noise_std);
 
 	/* --- Timed region: only the compute kernels, not data generation --- */
-	struct timespec t0, t1, t2, t3;
+	struct timespec t0, t1, t2, t3, t4, t5;
 
 	timestamp(&t0);
 	compute_XtX(X, XtX, N, p);
@@ -146,14 +147,21 @@ int main(int argc, char **argv)
 	gaussian_elimination_solve(XtX, Xty, beta, p);
 	timestamp(&t3);
 
+	printf("Check gaussian_elimination_solve:\n");
 	check_solution(beta, beta_true, p);
 
-	// print_results(beta, beta_true, p);
+	timestamp(&t4);
+	gauss_jordan_solve(XtX, Xty, beta, p);
+	timestamp(&t5);
+
+	printf("Check gaussian_jordan_solve:\n");
+	check_solution(beta, beta_true, p);
 
 	// Print times:
-	printf("Time taken by compute_XtX: %.2f s\n", diff_seconds(&t1, &t0));
-	printf("Time taken by compute_Xty: %.2f s\n", diff_seconds(&t2, &t1));
-	printf("Time taken by gaussian_elimination_solve: %.2f s\n", diff_seconds(&t3, &t2));
+	printf("Time taken by compute_XtX: %.2f s\n", diff_seconds(&t0, &t1));
+	printf("Time taken by compute_Xty: %.2f s\n", diff_seconds(&t1, &t2));
+	printf("Time taken by gaussian_elimination: %.2f s\n", diff_seconds(&t2, &t3));
+	printf("Time taken by gaussian_jordan: %.2f s\n", diff_seconds(&t4, &t5));
 
 
 	free(X);

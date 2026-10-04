@@ -1,4 +1,4 @@
-#include "gaussian.h"
+#include "gauss_jordan.h"
 #include "utils/matrix.h"
 #include <float.h>
 #include <math.h>
@@ -7,7 +7,7 @@
 #include <stdlib.h>
 
 /**
- * Step 1 of Gaussian elimination, build an augmented p x (p+1) matrix [XtX | Xty]
+ * Step 1 of Gauss-Jordan, build an augmented p x (p+1) matrix [XtX | Xty]
  *
  * @param[in]  XtX    XtX = X^T * X. It is a p x p matrix in row-major
  * @param[in]  Xty    Xty = X^T * y. It is a p x 1 matrix right-hand sider
@@ -30,12 +30,12 @@ static inline void init_augmented_matrix(const double *restrict XtX, const doubl
 
 
 /**
- * Step 2 of Gaussian elimination, forward elimination: for each pivot column k = 0..p-1,
+ * Step 2 of Gauss-Jordan, reduce to identity matrix: for each pivot column k = 0..p-1,
  *      a. partial pivoting: find the row r >= k with the largest
  *         absolute value in column k, and swap rows k and r if r != k
  *         (this avoids dividing by a very small/zero pivot).
- *      b. eliminate column k from all rows below k by subtracting an
- *         appropriate multiple of row k.
+ *      b. Set column k to 0 from all rows by subtracting an appropriate multiple of row k
+ *         (except diagonal to 1).
  *
  * @param[out] matrix  The augmented matrix [XtX | Xty]
  * @param[in]  rows    Number of rows of matrix
@@ -43,10 +43,9 @@ static inline void init_augmented_matrix(const double *restrict XtX, const doubl
  *
  * NOTE: This functions ignore the case where matrix is singular
  */
-static inline void forward_elimination(double *restrict matrix, int rows, int columns)
+static inline void reduce_to_identity_matrix(double *restrict matrix, int rows, int columns)
 {
-	// Last iteration is not necessary since there is not gonna be any swap or elimination (thats why (columns - 2))
-	for (int pivot_col = 0; pivot_col < (columns - 2); pivot_col++) {
+	for (int pivot_col = 0; pivot_col < (columns - 1); pivot_col++) {
 		int selected_row = pivot_col;
 		double max_value = -DBL_MAX;
 
@@ -65,13 +64,24 @@ static inline void forward_elimination(double *restrict matrix, int rows, int co
 			}
 		}
 
-		// Add a multiple of selected row to each below row in order to eliminate all values below pivot columns
-		for (int row = pivot_col + 1; row < rows; row++) {
-			const double multiple =
-			    -(matrix[row * columns + pivot_col]) / matrix[pivot_col * columns + pivot_col];
+		// Set the diagonal of the row to 1 (and multiply on the rest of the row)
+		const double divisor = matrix[pivot_col * columns + pivot_col];
+		for (int col = pivot_col; col < columns; col++) {
+			matrix[pivot_col * columns + col] /= divisor;
+		}
 
-			matrix[row * columns + pivot_col] = 0.0; // Could be deleted since never readed
-			for (int i = pivot_col + 1; i < columns; i++) {
+		// Set column k to 0 from all rows above k by subtracting an appropriate multiple of row k.
+		for (int row = 0; row < pivot_col; row++) {
+			const double multiple = -matrix[row * columns + pivot_col];
+			for (int i = pivot_col; i < columns; i++) {
+				matrix[row * columns + i] += matrix[pivot_col * columns + i] * multiple;
+			}
+		}
+
+		// Set column k to 0 from all rows below k by subtracting an appropriate multiple of row k.
+		for (int row = pivot_col + 1; row < rows; row++) {
+			const double multiple = -matrix[row * columns + pivot_col];
+			for (int i = pivot_col; i < columns; i++) {
 				matrix[row * columns + i] += matrix[pivot_col * columns + i] * multiple;
 			}
 		}
@@ -79,55 +89,46 @@ static inline void forward_elimination(double *restrict matrix, int rows, int co
 }
 
 /**
- * Step 3 of Gaussian elimination, back substitution: once the augmented matrix is in upper
- * triangular form, solve for beta[p-1], beta[p-2], ..., beta[0] from the bottom row upward.
+ * Step 3 of Gauss-Jordan, the last column of the matrix corresponds to the vector beta
  *
  * @param[in]  matrix  The augmented matrix [XtX | Xty]
  * @param[in]  rows    Number of rows of matrix
  * @param[in]  columns Number of columns of matrix
  * @param[out] beta    The vector with the solution
  */
-static inline void back_substitution(const double *restrict matrix, int rows, int columns, double *restrict beta)
+static inline void obtain_beta(const double *restrict matrix, int rows, int columns, double *restrict beta)
 {
-	for (int row = rows - 1; row >= 0; row--) {
-		double sum = 0;
-		for (int i = rows - 1; i > row; i--) {
-			sum += beta[i] * matrix[row * columns + i];
-		}
-
-		beta[row] = (matrix[row * columns + columns - 1] - sum) / matrix[row * columns + row];
+	for (int row = 0; row < rows; row++) {
+		beta[row] = matrix[row * columns + columns - 1];
 	}
 }
 
 
 /* -------------------------------------------------------------------------
- * TODO (STUDENT): gaussian_elimination_solve
+ * TODO (STUDENT): Gauss-Jordan
  *
  * Solve the p x p system:
  *
  *   XtX * beta = Xty
  *
- * using Gaussian elimination with partial pivoting, followed by back
- * substitution:
+ * using Gauss-Jordan with partial pivoting.
  *
  *   1. Build an augmented p x (p+1) matrix [XtX | Xty] (work on a local
  *      copy — do not modify XtX/Xty in place, you may want to keep them
  *      for the report).
- *   2. Forward elimination: for each pivot column k = 0..p-1,
+ *   2. Reduce to identity matrix: for each pivot column k = 0..p-1,
  *        a. partial pivoting: find the row r >= k with the largest
  *           absolute value in column k, and swap rows k and r if r != k
  *           (this avoids dividing by a very small/zero pivot).
- *        b. eliminate column k from all rows below k by subtracting an
- *           appropriate multiple of row k.
- *   3. Back substitution: once the augmented matrix is in upper
- *      triangular form, solve for beta[p-1], beta[p-2], ..., beta[0]
- *      from the bottom row upward.
+ *        b. Set column k to 0 from all rows by subtracting an appropriate multiple of row k
+ *           (except diagonal to 1).
+ *   3. The last column of the matrix corresponds to the vector beta.
  *
  * XtX  : p x p, row-major (read-only)
  * Xty  : p (right-hand side, read-only)
  * beta : p (output, caller-allocated)
  * ---------------------------------------------------------------------- */
-void gaussian_elimination_solve(const double *restrict XtX, const double *restrict Xty, double *restrict beta, int p)
+void gauss_jordan_solve(const double *restrict XtX, const double *restrict Xty, double *restrict beta, int p)
 {
 
 	const int rows = p;
@@ -141,9 +142,9 @@ void gaussian_elimination_solve(const double *restrict XtX, const double *restri
 
 	init_augmented_matrix(XtX, Xty, matrix, p);
 
-	forward_elimination(matrix, rows, columns);
+	reduce_to_identity_matrix(matrix, rows, columns);
 
-	back_substitution(matrix, rows, columns, beta);
+	obtain_beta(matrix, rows, columns, beta);
 
 	free(matrix);
 }

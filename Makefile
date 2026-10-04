@@ -10,12 +10,14 @@ TARGET ?= build/program
 # Compiler (default gcc)
 CC ?= gcc
 
+ifeq ($(findstring cc,$(CC)),)
 ifeq ($(findstring gcc,$(CC)),)
 ifeq ($(findstring icc,$(CC)),)
 ifeq ($(findstring icx,$(CC)),)
 
 $(error Unsupported compiler '$(CC)'. Valid compilers: $(VALID_COMPILERS))
 
+endif
 endif
 endif
 endif
@@ -51,7 +53,7 @@ DEBUG_FLAGS_GCC := -Wpedantic -Wnull-dereference -Wdouble-promotion \
 			-Wshift-negative-value -Wshift-overflow -Wcast-align -fanalyzer
 
 # Release flags
-RELEASE_COMMON_FLAGS := -O2 -march=native
+RELEASE_COMMON_FLAGS :=
 
 
 ifeq ($(MODE),debug)
@@ -70,6 +72,9 @@ ifneq ($(findstring gcc,$(CC)),)
 CFLAGS += -lm
 LDLIBS += -lm
 endif
+
+EXTRA_CFLAGS ?=
+CFLAGS += $(EXTRA_CFLAGS)
 
 # Rules
 all: $(TARGET)
@@ -113,6 +118,8 @@ help:
 	@echo ""
 	@echo "NPROC (default: Number of proccesors in your system)"
 	@echo "  Specifies the number of processes for parallelizing the static analyzers tools."
+	@echo "EXTRA_CFLAGS"
+	@echo "  Add flags to the compilation."
 	@echo ""
 
 

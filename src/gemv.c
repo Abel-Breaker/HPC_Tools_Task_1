@@ -9,7 +9,7 @@
  *
  *   Xty[a] = sum over i=0..N-1 of X[i][a] * y[i]
  * ---------------------------------------------------------------------- */
-void compute_Xty(const double X[], const double y[], double Xty[], int N, int p)
+void compute_Xty(const double *restrict X, const double *restrict y, double *restrict Xty, int N, int p)
 {
 	for (int a = 0; a < p; a++) {
 		Xty[a] = 0;

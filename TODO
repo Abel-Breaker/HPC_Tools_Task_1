@@ -1,7 +1,5 @@
 # TASKS
-Handle singular matrix. (trying to not loose performance)
-Refactor to improve readibility and possibly make some simple optimizations.
-Add (and try) an alternative solver, Gauss-Jordan.
-Benching.
+Ask professor if is needed to handle singular matrices cases.
+Benching
 README with bench results.
 Delivery (6 october).
