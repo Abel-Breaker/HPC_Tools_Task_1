@@ -1,0 +1,2188 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10311140. Previous errors about TMPDIR can be discarded
+Compiler: gcc Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.20 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.20 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.20 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.21 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.20 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 18.34 s
+Time taken by compute_Xty: 0.10 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.05 s
+Compiler: gcc Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 18.37 s
+Time taken by compute_Xty: 0.10 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.05 s
+Compiler: gcc Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 18.27 s
+Time taken by compute_Xty: 0.10 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.05 s
+Compiler: gcc Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 18.31 s
+Time taken by compute_Xty: 0.10 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.05 s
+Compiler: gcc Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 18.28 s
+Time taken by compute_Xty: 0.10 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.05 s
+Compiler: gcc Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 32.43 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 9.22 s
+Time taken by gaussian_jordan: 13.85 s
+Compiler: gcc Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 32.43 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 9.22 s
+Time taken by gaussian_jordan: 13.85 s
+Compiler: gcc Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 32.43 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 9.22 s
+Time taken by gaussian_jordan: 13.85 s
+Compiler: gcc Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 32.42 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 9.22 s
+Time taken by gaussian_jordan: 13.85 s
+Compiler: gcc Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 32.43 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 9.22 s
+Time taken by gaussian_jordan: 13.85 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.03 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.03 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.03 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.03 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.03 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 2.77 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.01 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 2.76 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.01 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 2.76 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.01 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 2.77 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.01 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 2.76 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.01 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 5.54 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.59 s
+Time taken by gaussian_jordan: 2.88 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 5.54 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.60 s
+Time taken by gaussian_jordan: 2.89 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 5.57 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.60 s
+Time taken by gaussian_jordan: 2.88 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 5.54 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.60 s
+Time taken by gaussian_jordan: 2.90 s
+Compiler: gcc Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 5.55 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.59 s
+Time taken by gaussian_jordan: 2.88 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 1.71 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 1.71 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 1.69 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 1.71 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 1.71 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 3.88 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.19 s
+Time taken by gaussian_jordan: 1.81 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 3.89 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.18 s
+Time taken by gaussian_jordan: 1.81 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 3.88 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.18 s
+Time taken by gaussian_jordan: 1.81 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 3.91 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.18 s
+Time taken by gaussian_jordan: 1.80 s
+Compiler: gcc Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 3.87 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.19 s
+Time taken by gaussian_jordan: 1.80 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 1.64 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 1.65 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 1.64 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 1.64 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 1.64 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.01 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.74 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.18 s
+Time taken by gaussian_jordan: 1.77 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.72 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.18 s
+Time taken by gaussian_jordan: 1.76 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.75 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.18 s
+Time taken by gaussian_jordan: 1.77 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.74 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.18 s
+Time taken by gaussian_jordan: 1.76 s
+Compiler: gcc Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.73 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 1.18 s
+Time taken by gaussian_jordan: 1.77 s
+Compiler: icc Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.20 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.20 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.20 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.20 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.21 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 18.27 s
+Time taken by compute_Xty: 0.11 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.05 s
+Compiler: icc Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 18.29 s
+Time taken by compute_Xty: 0.11 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.05 s
+Compiler: icc Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 18.23 s
+Time taken by compute_Xty: 0.11 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.05 s
+Compiler: icc Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 18.22 s
+Time taken by compute_Xty: 0.11 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.05 s
+Compiler: icc Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 18.26 s
+Time taken by compute_Xty: 0.11 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.05 s
+Compiler: icc Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 32.39 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 8.94 s
+Time taken by gaussian_jordan: 13.44 s
+Compiler: icc Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 32.40 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 8.93 s
+Time taken by gaussian_jordan: 13.44 s
+Compiler: icc Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 32.40 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 8.93 s
+Time taken by gaussian_jordan: 13.44 s
+Compiler: icc Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 32.41 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 8.93 s
+Time taken by gaussian_jordan: 13.44 s
+Compiler: icc Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 32.40 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 8.93 s
+Time taken by gaussian_jordan: 13.44 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.83 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.83 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.83 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.83 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.83 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 3.24 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.50 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 3.23 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.97 s
+Time taken by gaussian_jordan: 1.53 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 3.23 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.51 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 3.23 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.97 s
+Time taken by gaussian_jordan: 1.53 s
+Compiler: icc Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 3.23 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.50 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.00 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.00 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.00 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.00 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.00 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 0.86 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.50 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 0.86 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.52 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 0.86 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.51 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 0.86 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.51 s
+Compiler: icc Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 0.86 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.51 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.00 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.00 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.00 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.00 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.00 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 0.86 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.97 s
+Time taken by gaussian_jordan: 1.53 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 0.86 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.51 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 0.86 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.97 s
+Time taken by gaussian_jordan: 1.52 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 0.85 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.52 s
+Compiler: icc Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 0.86 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.97 s
+Time taken by gaussian_jordan: 1.53 s
+Compiler: icx Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.17 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.17 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.17 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.17 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O0" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.17 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 15.06 s
+Time taken by compute_Xty: 0.10 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.04 s
+Compiler: icx Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 15.08 s
+Time taken by compute_Xty: 0.10 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.04 s
+Compiler: icx Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 15.11 s
+Time taken by compute_Xty: 0.10 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.04 s
+Compiler: icx Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 15.04 s
+Time taken by compute_Xty: 0.10 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.04 s
+Compiler: icx Flags: "-O0" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 15.07 s
+Time taken by compute_Xty: 0.10 s
+Time taken by gaussian_elimination: 0.03 s
+Time taken by gaussian_jordan: 0.04 s
+Compiler: icx Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 28.32 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 7.76 s
+Time taken by gaussian_jordan: 11.65 s
+Compiler: icx Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 28.27 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 7.77 s
+Time taken by gaussian_jordan: 11.66 s
+Compiler: icx Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 28.31 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 7.77 s
+Time taken by gaussian_jordan: 11.68 s
+Compiler: icx Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 28.06 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 7.77 s
+Time taken by gaussian_jordan: 11.67 s
+Compiler: icx Flags: "-O0" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+Time taken by compute_XtX: 28.15 s
+Time taken by compute_Xty: 0.02 s
+Time taken by gaussian_elimination: 7.77 s
+Time taken by gaussian_jordan: 11.66 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.96 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.97 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.97 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.96 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.99 s
+Time taken by compute_Xty: 0.04 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288209
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288209
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.19 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.49 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288209
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288209
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.20 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.97 s
+Time taken by gaussian_jordan: 1.51 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288209
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288209
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.20 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.49 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288209
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288209
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.17 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.50 s
+Compiler: icx Flags: "-O2 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288209
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288209
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.17 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.50 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.96 s
+Time taken by compute_Xty: 0.05 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.97 s
+Time taken by compute_Xty: 0.05 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.96 s
+Time taken by compute_Xty: 0.05 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.97 s
+Time taken by compute_Xty: 0.05 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.97 s
+Time taken by compute_Xty: 0.05 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.48 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.23 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.96 s
+Time taken by gaussian_jordan: 1.49 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.49 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.24 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.50 s
+Compiler: icx Flags: "-O3 -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.25 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.51 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 20000 50
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+Time taken by compute_XtX: 0.01 s
+Time taken by compute_Xty: 0.00 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.97 s
+Time taken by compute_Xty: 0.05 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.98 s
+Time taken by compute_Xty: 0.05 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.97 s
+Time taken by compute_Xty: 0.05 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.96 s
+Time taken by compute_Xty: 0.05 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 50000 300
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+Time taken by compute_XtX: 0.97 s
+Time taken by compute_Xty: 0.05 s
+Time taken by gaussian_elimination: 0.00 s
+Time taken by gaussian_jordan: 0.00 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.22 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.50 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.21 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.50 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.23 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.49 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.22 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.50 s
+Compiler: icx Flags: "-Ofast -march=native" Parameters: 2000 2000
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Check gaussian_elimination_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Check gaussian_jordan_solve:
+Max |beta - beta_true|: 30.288208
+RMS |beta - beta_true|: 8.956684
+Time taken by compute_XtX: 3.23 s
+Time taken by compute_Xty: 0.01 s
+Time taken by gaussian_elimination: 0.95 s
+Time taken by gaussian_jordan: 1.50 s
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10311140)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10311140
+Cluster: finisterrae3
+User/Group: uscciarc/usc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 00:23:47
+CPU Efficiency: 1.53% of 1-01:50:56 core-walltime
+Job Wall-clock time: 00:24:14
+Memory Utilized: 91.84 MB
+Memory Efficiency: 2.99% of 3.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+

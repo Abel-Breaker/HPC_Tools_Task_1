@@ -7,7 +7,7 @@
 #SBATCH --exclusive
 #SBATCH -c 1
 #SBATCH --cpus-per-task=1
-#SBATCH --time=00:40:00
+#SBATCH --time=00:35:00
 #SBATCH --mem=3G
 #SBATCH --hint=nomultithread
 
