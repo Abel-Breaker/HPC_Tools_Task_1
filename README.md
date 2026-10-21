@@ -6,7 +6,9 @@
 This repository was created for the practical assignments of the High-Performance Computing Master's program at the University of Santiago de Compostela. The base repository for the assignment is the following: [https://gitlab.citic.udc.es/emilio.padron/hpctools_linearregression](https://gitlab.citic.udc.es/emilio.padron/hpctools_linearregression?utm_source=chatgpt.com)
 
 
-The practical assignment consists of a series of deliverables based on the same codebase. **Each deliverable is identified by a specific tag in the repository**, corresponding to the assignment to be submitted. (**Current tag: Sequential Baseline (deliverable 1)**)
+**The practical assignment consists of a 2 deliverables** based on the same codebase. As this code is the base for the next exercise, will be mantained as the **main branch** with the **current tag: Sequential Baseline (deliverable 1)**.
+
+**Next deliverable will be identified by a different branch in the repository**, corresponding to the assignment to be submitted. 
 
 ## Context
 
