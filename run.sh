@@ -5,6 +5,13 @@ clear
 
 set -e
 
-make rebuild CC=gcc MODE=debug # EXTRA_CFLAGS="-O2 -march=native"
+make rebuild CC=gcc MODE=release EXTRA_CFLAGS="-O3 -march=native -g3 -fno-omit-frame-pointer -funroll-loops "
 
-./build/program 200 20
+
+#./build/program 50000 300
+
+#perf record -e cycles,instructions,cache-misses,branches,branch-misses -g ./build/program 50000 300
+
+# perf record  -g ./build/program 50000 300
+
+perf stat -B -d ./build/program 50000 300

@@ -1,5 +1,4 @@
 # TASKS
-Ask professor if is needed to handle singular matrices cases.
-Benching
-README with bench results.
-Delivery (6 october).
+Probar a primero trasponer la matriz y luego operar.
+hacer tiling en XtX
+Sacar datos mas numericos

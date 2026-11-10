@@ -120,10 +120,20 @@ int main(int argc, char **argv)
 	rng_seed(seed);
 
 	double *X = malloc((size_t)N * (size_t)p * sizeof(double));
+	/*size_t size = (size_t)N * (size_t)p * sizeof(double);
+	size_t aligned_size = (size + 63) & ~(size_t)63;
+
+	double *X = aligned_alloc(64, aligned_size);*/
+
+
 	double *beta_true = malloc((size_t)p * sizeof(double));
 	double *y = malloc((size_t)N * sizeof(double)); // Column (matrix N x 1)
+	/*size = (size_t)p * (size_t)p * sizeof(double);
+	aligned_size = (size + 63) & ~(size_t)63;
+
+	double *XtX = aligned_alloc(64, aligned_size);*/
 	double *XtX = malloc((size_t)p * (size_t)p * sizeof(double));
-	// double *XtX = calloc((size_t)(p * p), sizeof(double));
+	//  double *XtX = calloc((size_t)(p * p), sizeof(double));
 	double *Xty = malloc((size_t)p * sizeof(double));
 	double *beta = malloc((size_t)p * sizeof(double));
 

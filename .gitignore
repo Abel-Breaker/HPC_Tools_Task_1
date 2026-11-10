@@ -70,3 +70,7 @@ dkms.conf
 
 # txt files
 #*.txt
+
+# perf
+*.data
+*data.old
