@@ -1,3 +1,3 @@
 #pragma once
 
-void compute_XtX(const double X[], double XtX[], int N, int p);
+void compute_XtX(const double *restrict Xt, double *restrict XtX, int N, int p);
