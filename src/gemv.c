@@ -1,4 +1,7 @@
 #include "gemv.h"
+#include <stdlib.h>
+#include <string.h>
+
 /* -------------------------------------------------------------------------
  * TODO (STUDENT): compute_Xty
  *
@@ -11,8 +14,9 @@
  * ---------------------------------------------------------------------- */
 void compute_Xty(const double *restrict Xt, const double *restrict y, double *restrict Xty, int N, int p)
 {
+	memset(Xty, 0, (size_t)p * sizeof(*Xty));
+
 	for (int i = 0; i < p; i++) {
-		Xty[i] = 0;
 		for (int j = 0; j < N; ++j) {
 			Xty[i] += Xt[i * N + j] * y[j];
 		}

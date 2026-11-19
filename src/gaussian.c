@@ -6,6 +6,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define MIN(X, Y) (((X) < (Y)) ? (X) : (Y))
+
 /**
  * Step 1 of Gaussian elimination, build an augmented p x (p+1) matrix [XtX | Xty]
  *
@@ -43,36 +45,56 @@ static inline void init_augmented_matrix(const double *restrict XtX, const doubl
  *
  * NOTE: This functions ignore the case where matrix is singular
  */
-static inline void forward_elimination(double *restrict matrix, int rows, int columns)
+static void forward_elimination(double *restrict matrix, int rows, int columns)
 {
+	const int BLOCK_SIZE = 32;
+
 	// Last iteration is not necessary since there is not gonna be any swap or elimination (thats why (columns - 2))
-	for (int pivot_col = 0; pivot_col < (columns - 2); pivot_col++) {
-		int selected_row = pivot_col;
-		double max_value = -DBL_MAX;
+	for (int pc = 0; pc < (columns - 2); pc += BLOCK_SIZE) {
+		for (int pivot_col = pc; pivot_col < MIN(pc + BLOCK_SIZE, (columns - 2)); pivot_col++) {
+			int selected_row = pivot_col;
+			double max_value = -DBL_MAX;
 
-		// Partial pivoting
-		for (int row = pivot_col; row < rows; row++) {
-			if (fabs(matrix[row * columns + pivot_col]) > max_value) {
-				selected_row = row;
-				max_value = fabs(matrix[row * columns + pivot_col]);
+			// Partial pivoting (only on the block range)
+			for (int row = pivot_col; row < MIN(pc + BLOCK_SIZE, rows); row++) {
+				if (fabs(matrix[row * columns + pivot_col]) > max_value) {
+					selected_row = row;
+					max_value = fabs(matrix[row * columns + pivot_col]);
+				}
+			}
+			if (selected_row != pivot_col) {
+				for (int i = pivot_col; i < columns;
+				     i++) { // Columns left of pivot are zeros, no need to swap
+					double tmp = matrix[pivot_col * columns + i];
+					matrix[pivot_col * columns + i] = matrix[selected_row * columns + i];
+					matrix[selected_row * columns + i] = tmp;
+				}
+			}
+
+			// Add a multiple of selected row to each below row in block in order to eliminate all values
+			// below pivot columns
+			for (int row = pivot_col + 1; row < MIN(pc + BLOCK_SIZE, rows); row++) {
+				const double multiple =
+				    -(matrix[row * columns + pivot_col]) / matrix[pivot_col * columns + pivot_col];
+
+				// matrix[row * columns + pivot_col] = 0.0; // Could be deleted since never readed
+				for (int i = pivot_col + 1; i < columns; i++) {
+					matrix[row * columns + i] += matrix[pivot_col * columns + i] * multiple;
+				}
 			}
 		}
-		if (selected_row != pivot_col) {
-			for (int i = pivot_col; i < columns; i++) { // Columns left of pivot are zeros, no need to swap
-				double tmp = matrix[pivot_col * columns + i];
-				matrix[pivot_col * columns + i] = matrix[selected_row * columns + i];
-				matrix[selected_row * columns + i] = tmp;
-			}
-		}
 
-		// Add a multiple of selected row to each below row in order to eliminate all values below pivot columns
-		for (int row = pivot_col + 1; row < rows; row++) {
-			const double multiple =
-			    -(matrix[row * columns + pivot_col]) / matrix[pivot_col * columns + pivot_col];
+		// Add a multiple of selected row to each below row of block in order to eliminate all values
+		// below pivot columns
+		for (int row = pc + BLOCK_SIZE; row < rows; row++) {
+			for (int pivot_col = pc; pivot_col < MIN(pc + BLOCK_SIZE, (columns - 2)); pivot_col++) {
+				const double multiple =
+				    -(matrix[row * columns + pivot_col]) / matrix[pivot_col * columns + pivot_col];
 
-			matrix[row * columns + pivot_col] = 0.0; // Could be deleted since never readed
-			for (int i = pivot_col + 1; i < columns; i++) {
-				matrix[row * columns + i] += matrix[pivot_col * columns + i] * multiple;
+				// matrix[row * columns + pivot_col] = 0.0; // Could be deleted since never readed
+				for (int i = pivot_col + 1; i < columns; i++) {
+					matrix[row * columns + i] += matrix[pivot_col * columns + i] * multiple;
+				}
 			}
 		}
 	}

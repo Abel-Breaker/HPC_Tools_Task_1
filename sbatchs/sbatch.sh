@@ -4,7 +4,6 @@
 #SBATCH --error=sbatchs/errors/%x-%j.err
 #SBATCH -p ilk
 #SBATCH -N 1
-#SBATCH --exclusive
 #SBATCH -c 1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:35:00
@@ -14,7 +13,7 @@
 module load cesga/2020 intel/2021.3.0
 
 COMPILERS=("gcc" "icc" "icx")
-FLAGS=("-O0" "-O2 -march=native" "-O3 -march=native" "-Ofast -march=native")
+FLAGS=("-O0" "-O2 -march=native" "-O3 -march=native -ffast-math" "-Ofast -march=native -ffast-math")
 PARAMETERS=("20000 50" "50000 300" "2000 2000")
 
 for COMPILER in "${COMPILERS[@]}"; do
