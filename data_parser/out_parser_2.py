@@ -259,4 +259,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# python data_parser/out_parser_2.py sbatchs/outs/bench_task_1-11834368.out -o data_parser/benchs_results/task_2
+# python data_parser/out_parser_2.py sbatchs/outs/bench_task_1-11834967.out -o data_parser/benchs_results/task_2

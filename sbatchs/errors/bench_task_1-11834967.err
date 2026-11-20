@@ -1,0 +1,21 @@
+gcccore/system unloaded
+cesga/2020 unloaded
+intel/2021.3.0 unloaded
+        Preparing the environment for use of the CESGA 2020 software stack.
+        Please rebuild modules cache: module --ignore-cache avail
+     
+cesga/2020 loaded
+gcccore/system loaded
+intel/2021.3.0 loaded
+gcccore/system unloaded
+intel/2021.3.0 unloaded
+gcccore/system loaded
+intel/2021.3.0 loaded
+srun: Job 11834967 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 11834967
+srun: Job 11834967 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 11834967
+srun: Job 11834967 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 11834967
+srun: Job 11834967 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 11834967
