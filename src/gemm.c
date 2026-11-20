@@ -14,7 +14,7 @@
  *   XtX[a][b] = sum over i=0..N-1 of X[i][a] * X[i][b]
  * Naive triple-nested loop. No blocking, no manual vectorization.
  * ---------------------------------------------------------------------- */
-void compute_XtX_(const double *restrict X, double *restrict XtX, int N, int p)
+void compute_XtX_original(const double *restrict X, double *restrict XtX, int N, int p)
 {
 	memset(XtX, 0, (size_t)p * (size_t)p * sizeof(*XtX));
 
@@ -27,7 +27,7 @@ void compute_XtX_(const double *restrict X, double *restrict XtX, int N, int p)
 	}
 }
 
-void compute_XtX__(const double *restrict X, double *restrict XtX, int N, int p)
+void compute_XtX_blocking(const double *restrict X, double *restrict XtX, int N, int p)
 {
 	const int BLOCK_SIZE = 32;
 
@@ -56,7 +56,7 @@ void compute_XtX__(const double *restrict X, double *restrict XtX, int N, int p)
 
 
 /* Other idea of computation, it exchange loops and performs other pattern */
-void compute_XtX___(const double *restrict X, double *restrict XtX, int N, int p)
+void compute_XtX_exchange(const double *restrict X, double *restrict XtX, int N, int p)
 {
 	memset(XtX, 0, (size_t)p * (size_t)p * sizeof(*XtX));
 
@@ -84,9 +84,8 @@ void compute_XtX___(const double *restrict X, double *restrict XtX, int N, int p
 }
 
 
-/* Primero traspone la matriz, asi simplemente lee una fila y empieza a multiplicar por las demas filas escribiendo en
- * memoria secuencialmente por cada fila.*/
-
+/* First, transpose the matrix; this way, you can simply read one row and proceed to multiply it by the other rows,
+ * writing the results to memory sequentially for each row */
 void compute_XtX(const double *restrict Xt, double *restrict XtX, int N, int p)
 {
 
